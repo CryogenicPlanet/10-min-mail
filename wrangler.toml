@@ -1,0 +1,16 @@
+name = "10-min-mail"
+main = "src/email.ts"
+compatibility_date = "2023-01-29"
+usage_model = "bundled"
+env = { }
+
+[triggers]
+crons = [ ]
+
+[vars]
+FORWARD_EMAIL = "hey@cryo.wtf"
+EMAIL_DOMAIN = "cryo.wtf"
+
+[[kv_namespaces]]
+id = "0a049f81eb9e4cde80effda643b76b8e"
+binding = "KV_NAME"
